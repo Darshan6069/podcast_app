@@ -1,0 +1,28 @@
+{
+  "title": "The Blockchain Experience",
+  "description": "Media3 Labs LLC\nWelcome To The Blockchain Experience, a podcast hosted by meta-david, where we dive deep into the world of blockchain technology including, web3, NFTs, and decentralized systems.",
+  "cover_url": "https://via.placeholder.com/300/FFFF00/FF0000?text=The+Blockchain+Experience",
+  "episodes": [
+    {
+      "title": "Episode 1",
+      "subtitle": "In this conversation, meta-david interviews Sandy Carter from Unstoppable Domains. They discuss the benefits of Web3 and the features of Unstoppable Domains, such as easy domain ownership and digital identity. Sandy emphasizes the importance...",
+      "date": "Wed, Jan 11 2023 13:00",
+      "duration": "02:06",
+      "audio_url": "assets/audio/testing_audio.mp3"
+    },
+    {
+      "title": "Episode 2",
+      "subtitle": "meta-david talks with the legendary Gabe Weis, a mixed-media artist living in the Bay Area. His work has...",
+      "date": "Wed, Jan 11 2023 13:00",
+      "duration": "02:06",
+      "audio_url": "assets/audio/testing_audio.mp3"
+    },
+    {
+      "title": "Episode 3",
+      "subtitle": "Hello, gm gm! This is the trailer episode where we are introducing The Dead NFT Artist Society over to...",
+      "date": "Wed, Jan 11 2023 13:00",
+      "duration": "02:06",
+      "audio_url": "assets/audio/testing_audio.mp3"
+    }
+  ]
+}

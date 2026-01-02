@@ -5,13 +5,13 @@ import '../../../data/model/episode_model.dart';
 
 class PodcastPlayerController extends GetxController {
   final AudioPlayer player = AudioPlayer();
-  var currentEpisode = Rxn<Episode>();
-  var playbackSpeed = 1.0.obs;
-  var isPlaying = false.obs;
-  var isLoading = false.obs;
-  var currentPosition = Duration.zero.obs;
-  var totalDuration = Duration.zero.obs;
-  var bufferedPosition = Duration.zero.obs;
+  final Rxn<Episode> currentEpisode = Rxn<Episode>();
+  final RxDouble playbackSpeed = 1.0.obs;
+  final RxBool isPlaying = false.obs;
+  final RxBool isLoading = false.obs;
+  final Rx<Duration> currentPosition = Duration.zero.obs;
+  final Rx<Duration> totalDuration = Duration.zero.obs;
+  final Rx<Duration> bufferedPosition = Duration.zero.obs;
 
   Stream<Duration?> get positionStream => player.positionStream;
 
